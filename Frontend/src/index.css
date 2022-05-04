@@ -1,0 +1,213 @@
+.container {
+  padding: 1%;
+  /* background: lightgrey */
+}
+
+.header {
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tm-text {
+  color: black;
+  font-size: 25px;
+}
+
+.no-tm {
+  color: blue;
+  font-size: 18px;
+  text-align: left;
+}
+
+.machines {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.machine {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.machine:hover {
+  border: 2px solid lightblue;
+}
+
+.machine h3 {
+  display: flex;
+  align-items: center;
+}
+
+.delete {
+  padding-left: 15px;
+}
+
+.buttons {
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.trans-func {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.trans-field {
+  padding-top: 20px;
+}
+
+.trans-add {
+  padding: 20px 0 0 10px;
+}
+
+.add-machine {
+  margin: 20px 0;
+}
+
+.form-control {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.form-control input {
+  width: 30%;
+  height: 30px;
+  padding: 3px 7px;
+  margin: 7px;
+  font-size: 16px;
+}
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.information {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.reset-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reset {
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.input-tm {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.logs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.log {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 3px 20px;
+  cursor: pointer;
+}
+
+.log:hover {
+  background-color: lightblue;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.tape-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tape h3 {
+  font-size: 30px;
+  color: lightskyblue;
+}
+
+.tape-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.tape-button {
+  padding: 0 20px 0 20px;
+  cursor: pointer;
+}
+
+.state {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.state p {
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 20px 20px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.letter {
+  padding: 15px 40px;
+  border: 1px solid black;
+}
+
+.head {
+  padding: 15px 40px;
+  border: 4px solid red;
+}
+
+.arrow-button {
+  margin: 10px;
+}
